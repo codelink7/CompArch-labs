@@ -1,34 +1,30 @@
 # CompArch-labs
 
-A collection of computer architecture labs and projects demonstrating fundamental concepts in system design, processor architecture, and digital logic.
+A collection of computer architecture labs demonstrating fundamental concepts in system design through hands-on implementation projects.
 
 ## Overview
 
-This repository contains labs and assignments for studying computer architecture, including topics such as:
-- CPU design and instruction sets
-- Memory hierarchy and caching
-- Assembly language programming
-- Digital logic circuits
-- Performance analysis and optimization
+This repository contains practical labs for studying computer architecture through real implementations:
+- VLSI design and register file implementation
+- GPU computing and performance optimization
+- Benchmarking and performance analysis
 
 ## Course Structure
 
-The labs are organized sequentially to build foundational knowledge:
+The labs provide hands-on experience with key architectural concepts:
 
 | Lab | Topic | Description |
 |-----|-------|-------------|
-| Lab 1 | Assembly Basics | Introduction to assembly language and processor fundamentals |
-| Lab 2 | Data Path Design | Single-cycle CPU implementation |
-| Lab 3 | Control Path | Multi-cycle CPU and finite state machines |
-| Lab 4 | Pipelining | Pipelined processor architecture |
-| Lab 5 | Caching | Memory hierarchy and cache design |
+| Lab 1 | VLSI Register File Design | Implementing register files in hardware description language |
+| Lab 2 | GPU Benchmarking | Matrix multiplication optimization on GPU (AxBxC + A for square matrices) |
 
 ## Prerequisites
 
 - Basic understanding of digital logic
-- Knowledge of C/C++ (for simulation and testing)
+- Knowledge of C/C++ (for GPU benchmarking and testing)
 - Familiarity with command-line tools
-- Text editor or IDE for code development
+- Hardware description language (HDL) knowledge for VLSI lab
+- CUDA or OpenCL setup for GPU lab
 
 ## Getting Started
 
@@ -40,7 +36,9 @@ The labs are organized sequentially to build foundational knowledge:
 
 2. Navigate to a specific lab:
    ```bash
-   cd Lab1
+   cd Lab1    # For VLSI Register File
+   # or
+   cd Lab2    # For GPU Benchmarking
    ```
 
 3. Read the lab instructions in the README file within each lab directory
@@ -49,9 +47,10 @@ The labs are organized sequentially to build foundational knowledge:
 
 ## Tools & Technologies
 
-- **Languages**: C++, Assembly, Verilog/VHDL
-- **Simulators**: ModelSim, Vivado, custom C++ simulators
-- **Build System**: Make
+- **Languages**: C++, Verilog/VHDL, CUDA
+- **Simulators**: ModelSim, Vivado
+- **GPU Framework**: CUDA, cuBLAS
+- **Build System**: Make, CMake
 
 ## Lab Submissions
 
@@ -73,6 +72,7 @@ These materials are provided for educational purposes.
 
 - [Computer Organization and Design](https://www.elsevier.com/books/computer-organization-and-design/patterson/5th-edition) - Patterson & Hennessy
 - [Digital Design](https://www.pearson.com/en-us/subject-catalog/p/digital-design-morris-mano/9780133756882) - Morris Mano
+- NVIDIA CUDA Documentation: https://docs.nvidia.com/cuda/
 - RISC-V ISA Documentation: https://riscv.org/
 
 ---
