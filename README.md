@@ -5,7 +5,7 @@ A collection of computer architecture labs demonstrating fundamental concepts in
 ## Overview
 
 This repository contains practical labs for studying computer architecture through real implementations:
-- VLSI design and register file implementation
+- VHDL design and register file implementation
 - GPU computing and performance optimization
 - Benchmarking and performance analysis
 
@@ -15,7 +15,7 @@ The labs provide hands-on experience with key architectural concepts:
 
 | Lab | Topic | Description |
 |-----|-------|-------------|
-| Lab 1 | VLSI Register File Design | Implementing register files in hardware description language |
+| Lab 1 | VHDL Register File Design | Implementing register files in hardware description language |
 | Lab 2 | GPU Benchmarking | Matrix multiplication optimization on GPU (AxBxC + A for square matrices) |
 
 ## Prerequisites
@@ -36,7 +36,7 @@ The labs provide hands-on experience with key architectural concepts:
 
 2. Navigate to a specific lab:
    ```bash
-   cd Lab1    # For VLSI Register File
+   cd Lab1    # For VHDL Register File
    # or
    cd Lab2    # For GPU Benchmarking
    ```
